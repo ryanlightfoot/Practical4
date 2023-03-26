@@ -7,6 +7,7 @@
     <string name="No">No</string>
 
     <string name="toPay">To pay screen</string>
+    <string name="back">Back</string>
 
     <string name="PayScreenLabel">Please pay your registration</string>
     <string name="accDetails">Account details:</string>
@@ -17,5 +18,8 @@
     <string name="regLabel">Registration!</string>
     <string name="amount">Amount paid: </string>
     <string name="num">15000</string>
+    <string name="studentNo">Enter Student Number</string>
+    <string name="register">Register</string>
+
 
 </resources>

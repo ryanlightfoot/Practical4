@@ -24,6 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/num" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -71,6 +72,12 @@
                 android:text="@string/No" />
         </RadioGroup>
 
+        <Button
+            android:id="@+id/btnpay"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="@string/toPay" />
+
         <TextView
             android:id="@+id/lblReg"
             android:layout_width="match_parent"
@@ -80,11 +87,19 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/btnCon"
+        <EditText
+            android:id="@+id/txbStudentNo"
             android:layout_width="match_parent"
-            android:layout_height="62dp"
-            android:text="@string/toPay" />
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="@string/studentNo"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:text="@string/register" />
 
     </LinearLayout>
 

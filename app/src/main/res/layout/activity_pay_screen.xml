@@ -45,9 +45,9 @@
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
+            android:id="@+id/btnBack"
+            android:layout_width="344dp"
             android:layout_height="62dp"
-            android:text="Button" />
+            android:text="@string/back" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
