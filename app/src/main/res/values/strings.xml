@@ -17,9 +17,15 @@
 
     <string name="regLabel">Registration!</string>
     <string name="amount">Amount paid: </string>
-    <string name="num">7500</string>
+    <string name="num">7500</string>                        //Change this to change amount paid
     <string name="studentNo">Enter Student Number</string>
     <string name="register">Register</string>
 
+    <string name="reglbl">Please select the modules you would like to register for</string>
+    <string name="mod1">IMOB301</string>
+    <string name="mod2">IENT301</string>
+    <string name="mod3">IRUD301</string>
+    <string name="mod4">IAPP301</string>
+    <string name="mod5">IMPS301</string>
 
 </resources>

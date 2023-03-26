@@ -9,11 +9,61 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/lblRegi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reglbl"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/rbnMod1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mod1" />
+
+        <CheckBox
+            android:id="@+id/rbnMod2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mod2" />
+
+        <CheckBox
+            android:id="@+id/rbnMod3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mod3" />
+
+        <CheckBox
+            android:id="@+id/rbnMod4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mod4" />
+
+        <CheckBox
+            android:id="@+id/rbnMod5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mod5" />
+
+        <Button
+            android:id="@+id/btnReg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register" />
 
         <Button
             android:id="@+id/btnBackReg"
