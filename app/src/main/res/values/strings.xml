@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Practical 4</string>
+
+    <string name="Label">Student Registration!</string>
+    <string name="amtPaidEnough">Have you paid the registration fee?</string>
+    <string name="yes">Yes</string>
+    <string name="No">No</string>
+
+    <string name="toPay">To pay screen</string>
+
+    <string name="PayScreenLabel">Please pay your registration</string>
+    <string name="accDetails">Account details:</string>
+    <string name="accDetail">Bank Name: FNB
+    Account number: #######
+    Branch: #######</string>
+
+    <string name="regLabel">Registration!</string>
+    <string name="amount">Amount paid: </string>
+    <string name="num">15000</string>
+
+</resources>
